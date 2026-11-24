@@ -17,7 +17,7 @@ const config = {
   baseUrl: '/t-shikuro.github.io/',
 
   organizationName: 't-shikuro', // Usually your GitHub org/user name.
-  projectName: 't-shikuro.github.io', // Usually your repo name.
+  projectName: 'sample-docs-site', // Usually your repo name.
   deploymentBranch: 'Deployment', // Branch for deployment
   trailingSlash: false,
   onBrokenLinks: 'throw',
