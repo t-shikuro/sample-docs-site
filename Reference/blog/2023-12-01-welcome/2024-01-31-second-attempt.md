@@ -1,9 +1,9 @@
 ---
 title: 'A November to Remember: Lessons from the Ledge'
 authors:
-    name: Kershia Mukoro
+    name: Ted Shin
     title: Avid Hiker and Adventurer
-    url: https://kershiamukoro.github.io
+    url: https://t-shikuro.github.io
 ---
 
 Our latest attempt to conquer Pikes Peak on November 10, 2023, faced us with freezing temperatures and knee-deep snow, ultimately leading to an unsuccessful climb. The challenge became apparent when my friend suffered from severe altitude sickness, making him extremely fatigued. We were just 2 miles from the summit, well past the A-frame shelter, but the effort needed to wade through the snow and his worsening condition forced us to slow down considerably.

@@ -1,9 +1,9 @@
 ---
 title: 'Pikes Peak Adventure: Lessons Learned from Running Out of Water'
 authors:
-    name: Kershia Mukoro
+    name:  Ted Shin
     title: Avid Hiker and Adventurer
-    url: https://kershiamukoro.github.io
+    url: https://t-shikuro.github.io
 ---
 
 
