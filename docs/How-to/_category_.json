@@ -1,0 +1,11 @@
+{
+  "label": "How-to Guides",
+  "position": 4,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+      "type": "generated-index"
+    }
+  }
+
+  

@@ -1,0 +1,215 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+
+:root {
+  --ifm-color-primary: #25a7c1; /*navbar and sidebar highlight font*/
+  --ifm-color-primary-dark: #000000;
+  --ifm-color-primary-darker: #000000;
+  --ifm-color-primary-darkest: #000000;
+  --ifm-color-primary-light: #000000;
+  --ifm-color-primary-lighter: #000000;
+  --ifm-color-primary-lightest: #000000;
+  --ifm-code-font-size: 95%; /*impacts codeblock font size*/   
+}
+
+/* dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #25a7c1;           /*navbar and sidebar highlight font*/
+  --ifm-color-primary-dark: #2196ae;
+  --ifm-color-primary-darker: #1f8ea4;
+  --ifm-color-primary-darkest: #1a7587;
+  --ifm-color-primary-light: #29b8d4;
+  --ifm-color-primary-lighter: #31bcd8;
+  --ifm-color-primary-lightest: #4ec5dd;
+}
+
+
+/* Footer colors */
+:root {
+  --ifm-footer-background-color: #333333;
+  --ifm-footer-title-color:#4ec5dd;
+  --ifm-footer-link-color: #4ec5dd;
+  --ifm-footer-link-hover-color: #0ee2f1;
+  }
+
+/* Dark mode overrides */
+[data-theme='dark'] {
+  --ifm-footer-background-color: #333333; /* Darker background for dark mode */
+  --ifm-footer-title-color: #ffffff; /* White text for titles in dark mode */
+  --ifm-footer-link-color: #ffffff; /* White text for links in dark mode*/
+  --ifm-footer-link-hover-color: #4ec5dd; /* Lighter blue for link hover in dark mode*/
+}
+
+.footer {
+  background-color: var(--ifm-footer-background-color);
+  color: var(--ifm-footer-link-color);
+}
+
+.footer a {
+  color: var(--ifm-footer-link-color);
+}
+
+.footer a:hover {
+  color: var(--ifm-footer-link-hover-color);
+}
+
+.footer h1, .footer h2, .footer h3 {
+  color: var(--ifm-footer-title-color);
+}
+
+/* Font Size */
+@media screen and (max-width: 996px) {
+  :root {
+    --ifm-font-size-base: 20px;
+  }
+  article header h1 {
+    font-size: 2rem !important;
+  }
+  .hero .hero__title {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (min-width: 997px) {
+  :root {
+    --ifm-font-size-base: 18px;
+  }
+  article header h1 {
+    font-size: 2rem !important;
+  }
+}
+
+/* Responsive text sizes */
+@media (max-width: 768px) {
+  .hero__title {
+    font-size: 1.5rem; /* Smaller font size for mobile */
+  }
+
+  .hero__subtitle {
+    font-size: 1.25rem; /* Smaller font size for mobile */
+  }
+
+  .p {
+    font-size: 0.9rem; /* Smaller paragraph size */
+  }
+}
+
+
+/* Import Custom Fonts from Google */
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+/* Change Site Font Settings */
+:root {
+  --ifm-font-family-base: 'Sarabun';
+  --ifm-font-family-monospace: 'Sarabun';
+}
+
+:root {
+  --ifm-heading-font-family: 'Sarabun';
+  --ifm-font-weight:700
+}
+
+/* code block font */
+:root {
+  --ifm-font-family-monospace: 'Courier New', Courier, monospace;
+}
+
+/* Header Dropdown Menu */
+.dropdown__link {
+  font-size: inherit;
+}
+
+/* Remove shadow on the left */
+:root {
+  --ifm-global-shadow-md: 2.5rem;
+}
+
+img {
+  width:auto;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Terminal-like style for code blocks and more specific targeting for code blocks */
+pre[class*="language-"]>code {
+  background-color: #333333 !important; /* Force override */
+  color: #ffffff !important; /* Force override */
+  padding: 1rem;
+  border-radius: 5px;
+  /* font-weight: bold; */
+}
+
+/* General Form Styles */
+.form-container { 
+  background-color: aliceblue; /* Light background for the form area */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  color: #333; /* Default text color */
+}
+
+/* General label styles, applicable in light mode */
+.form-container label {
+  display: block;
+  margin-top: 20px;
+  color: #333; /* Default dark color for light mode */
+  font-family: 'Sarabun', sans-serif;
+  font-size: 16px;
+}
+
+
+/* Dark Mode Styles for the Form Container */
+[data-theme='dark'] .form-container {
+  background-color: #333; /* Dark background for the form area in dark mode */
+  color: #ffffff; /* Light text color for readability in dark mode */
+}
+
+/* Input and Text area Styles - Ensure contrast in both modes */
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container select,
+.form-container textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #fff; /* Light background for inputs */
+  color: #000; /* Dark text for inputs */
+}
+
+[data-theme='dark'] .form-container input[type="text"],
+[data-theme='dark'] .form-container input[type="email"],
+[data-theme='dark'] .form-container select,
+[data-theme='dark'] .form-container textarea {
+  background-color: #666; /* Darker background for inputs in dark mode */
+  color: #fff; /* Light text for inputs in dark mode */
+  border: 1px solid #888; /* Slightly lighter border in dark mode for contrast */
+}
+
+/* Specific dark mode styles */
+[data-theme='dark'] .form-container label {
+  color: #ffffff; /* Change to white in dark mode */
+}
+
+/* Button Styles */
+.form-container button {
+  width: 100%;
+  padding: 12px;
+  background-color: var(--ifm-color-primary); /* Use the primary color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-container button:hover {
+  background-color: var(--ifm-color-primary-dark); /* Darker primary color on hover */
+}
+
