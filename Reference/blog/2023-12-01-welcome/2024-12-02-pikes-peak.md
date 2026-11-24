@@ -1,9 +1,9 @@
 ---
 title: Pikes Peak
 authors:
-    name: Kershia Mukoro
+    name: Ted Shin
     title: Avid Hiker and Adventurer
-    url: https://kershiamukoro.github.io
+    url: https://t-shikuro.github.io
 ---
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';

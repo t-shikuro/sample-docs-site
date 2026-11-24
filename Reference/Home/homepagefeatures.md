@@ -11,7 +11,7 @@ const FeatureList = [
     Svg: require('@site/static/img/portfolio.svg').default,
     description: (
       <>
-      Welcome to my corner of the web! I'm Kershia, a multifaceted professional. Beyond the roles of technical writer, U.S. Army Reserve Soldier, and certified Medical Lab Scientist, I'm an adventure-seeker at heart. My world is a blend of curiosity, creativity, and a thirst for knowledge, especially as I dive into cybersecurity. You'll often find me exploring the outdoors, gliding on my onewheel, or enjoying the company of my three dogs.
+      Welcome to my corner of the web! I'm Ted, a multifaceted professional. Beyond the roles of technical writer, U.S. Army Reserve Soldier, and certified Medical Lab Scientist, I'm an adventure-seeker at heart. My world is a blend of curiosity, creativity, and a thirst for knowledge, especially as I dive into cybersecurity. You'll often find me exploring the outdoors, gliding on my onewheel, or enjoying the company of my three dogs.
       </>
     ),
   },

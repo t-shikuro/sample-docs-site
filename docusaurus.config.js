@@ -9,15 +9,15 @@ const { themes: prismThemes } = require('prism-react-renderer');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Kershia Mukoro',
-  tagline: 'Technical Writer',
+  title: 'Ted Shin',
+  tagline: 'Technical Writer (Docs as Code)',
   favicon: 'img/brainbulb.svg',
 
-  url: 'https://kershiamukoro.github.io',
-  baseUrl: '/KershiaMukoro.github.io/',
+  url: 'https://t-shikuro.github.io',
+  baseUrl: '/t-shikuro.github.io/',
 
-  organizationName: 'KershiaM', // Usually your GitHub org/user name.
-  projectName: 'KershiaMukoro.github.io', // Usually your repo name.
+  organizationName: 't-shikuro', // Usually your GitHub org/user name.
+  projectName: 't-shikuro.github.io', // Usually your repo name.
   deploymentBranch: 'Deployment', // Branch for deployment
   trailingSlash: false,
   onBrokenLinks: 'throw',
@@ -67,7 +67,7 @@ const config = {
         },
         { to: '/contact', label: 'Contact Me', position: 'right' },
         {
-          href: 'https://www.linkedin.com/in/kershiam/',
+          href: 'https://www.linkedin.com/in/tshin/',
           label: 'LinkedIn',
           position: 'right',
         },
@@ -91,7 +91,7 @@ const config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Kershia Mukoro`,
+      copyright: `Copyright © ${new Date().getFullYear()} Ted Shin`,
     },
 
     prism: {

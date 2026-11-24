@@ -31,7 +31,7 @@ export default function Home() {
   return (
     <Layout
       title={`Welcome to ${siteConfig.title}`}
-      description="Dive into Kershia's world of clear, concise, and effective technical communication.">
+      description="Dive into Ted's world of clear, concise, and effective technical communication.">
        <BadgesBar />
        <HomepageHeader />
        <main>
